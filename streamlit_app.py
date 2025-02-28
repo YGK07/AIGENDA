@@ -22,12 +22,12 @@ def input_image_details(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 st.set_page_config(page_title="Yohans ")
 st.sidebar.header("pundachi molle")
-st.sidebar.write("made by ydg")
-st.sidebar.write("powered by idk")
+st.sidebar.write("Made by Yohan George ")
+st.sidebar.write("powered by Ai Genda")
 st.header("VIRGIL ABLOHS IDEA")
 st.subheader("made by ye")
-st.subheader("managed by sigma sura")
-input= st.text_input("What do you want me to do daddy?",key="input")
+st.subheader("managed by Yohan George")
+input= st.text_input("What do you want me to do?",key="input")
 uploaded_file=st.file_uploader("choose an image",type=['jpg','jpeg','png'])
 image = ""
 if uploaded_file is not None:
